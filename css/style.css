@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    box-sizing: border-box;
 }
-main {
+main, footer {
     margin: 4px;
 }
     
@@ -30,7 +29,7 @@ header {
     margin-bottom: 0;
 }
 
-.subtitle h4 {
+h4 {
     margin: 0;
     color: grey;
 }
@@ -54,6 +53,7 @@ ul {
     list-style-position: inside;
     padding-left: 0;
   }
+
 
 
 /* Tabella */
@@ -89,3 +89,34 @@ table, tr, td, th{
     }
 
 /* /Tabella */
+
+
+
+/* Footer */
+
+.imagebox {
+    background-image: url("../img/monitor.jpg");
+}
+
+.imagebox2, .imagebox {
+    width: 230px;
+    height: 160px;
+    background-position: center;
+    background-size: contain;
+
+  }
+
+.imagebox2 {
+    background-image: url("../img/graph.jpg");
+  }
+
+h3 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 7px;
+  }
+
+footer {
+    padding-bottom: 20px;
+  }
