@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+main, footer {
+    margin: auto;
+    width: 80%;
+}
+    
+
+/* HEADER */
+
+header {
+    background-image: url("../img/pattern.png");
+    width: 100%;
+    height: 90px;
+    background-size: 19%;
+    background-color: #4fa0fd;
+}
+
+.headerlogo {
+    width: auto;
+    height: 40%;
+    position: relative;
+    top: 50%;
+    margin-left: 4px;
+
+}
+
+.maintitle h1 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+    color: grey;
+}
+
+.subtitle h5 {
+    font-size: 60%;
+    color: grey;
+    margin-top: 0;
+}
+
+a {
+    color: rgb(27, 190, 255);
+    text-decoration: none;
+}
+
+.highlights {
+    background-color: yellow;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+
+
+/* Tabella */
+thead {
+    background-color: #22a8e3;
+    
+    
+}
+
+
+.tabletitle {
+    width: 25%;
+    
+}
+
+.tabletext, .tabletitle {
+    text-align: left;
+    color: white;
+    
+}
+
+.bluedata {
+    background-color: rgb(184, 227, 253);
+}
+.whitedata {
+    background-color: white;
+}
+
+table, tr, td, th{
+
+    border-collapse: collapse;
+    
+    }
+
+/* /Tabella */
+
+
+
+/* Footer */
+
+.imagebox {
+    background-image: url("../img/monitor.jpg");
+}
+
+.imagebox2, .imagebox {
+    width: 230px;
+    height: 160px;
+    background-position: center;
+    background-size: contain;
+
+  }
+
+.imagebox2 {
+    background-image: url("../img/graph.jpg");
+  }
+
+h3 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 7px;
+  }
+
+footer {
+    padding-bottom: 20px;
+  }
